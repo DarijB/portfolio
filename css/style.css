@@ -1,0 +1,622 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* контейнер */
+/* .container {
+  margin: 0 auto;
+  width: 1440px;
+} */
+/* перша секція */
+.first {
+  padding-bottom: 73px;
+  max-width: 1519px;
+  background-size: 100%;
+  background-image: url(../img/bg.png);
+  margin: 0 auto;
+}
+/* шапка сайту */
+.header {
+  height: 114px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.header_navigation_icon {
+  margin-right: 90px;
+}
+/* контейнер для навігації */
+.header_navigation {
+  display: flex;
+  align-items: center;
+}
+.header_navigation_list {
+  margin-left: 39px;
+  font-size: 14px;
+  line-height: 16.75px;
+}
+.header_navigation_list_item {
+  text-decoration: none;
+  color: aliceblue;
+}
+.header_navigation_list:nth-child(6) {
+  width: 160px;
+  height: 42px;
+  background: white;
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.header_navigation_list_item_sixth {
+  color: #ffa800;
+  text-decoration: none;
+  font-weight: 700;
+}
+.header_navigation_list_item:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+.section_header_rating {
+  height: 140px;
+  display: flex;
+  padding-left: 118px;
+  align-items: flex-end;
+}
+/* коло першої секції */
+.circlet {
+  width: 231px;
+  height: 231px;
+  background: radial-gradient(
+      68.31% 68.31% at 50% 50%,
+      #f9fbff 0%,
+      #cadef9 100%
+    )
+    #ffffff;
+  border-radius: 50%;
+  border: 15px solid #075aca;
+  display: flex;
+  box-shadow: 0px 10px 50px #3272c8;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2f80ed;
+}
+/* обгортка для цифр */
+.wrapper_for_numbers {
+  display: flex;
+  font-size: 34px;
+  font-weight: 700;
+}
+.circlet_info_twelfth {
+  color: #ffa800;
+  padding: 0px 7px;
+  margin-bottom: 11px;
+}
+.circlet_info:nth-child(1),
+.circlet_info:nth-child(4) {
+  margin-bottom: 11px;
+}
+.circlet_info:nth-child(5) {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 19.5px;
+}
+.circlet_info:nth-child(1) {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21.11px;
+}
+.circlet_info:nth-child(4),
+.circlet_info:nth-child(3) {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20.1px;
+}
+.section_header_information {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-left: 35px;
+}
+.section_information_image {
+  width: 273px;
+  height: 352px;
+}
+.wrapper_for_subtitles {
+  display: flex;
+  margin-bottom: 50px;
+}
+.section_header_subtitle {
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.wrapper_for_information_about_school {
+  margin-left: 34.5px;
+}
+.section_header_title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 21px;
+}
+.it_languages {
+  margin-bottom: 29px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22.39px;
+}
+.section_information_button {
+  background: #64e2cd;
+  width: 223px;
+  height: 77px;
+  border-radius: 50px;
+  border: 14px solid #5aa6d8;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.42px;
+}
+.section_header_subtitle_image {
+  margin-left: 4px;
+}
+/* друга секція */
+.second {
+  display: flex;
+  max-width: 1519px;
+  background-size: 100%;
+  height: 600px;
+  background-image: url(../img/bg_second.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  margin: 0 auto;
+}
+.wrapper_for_info_list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+}
+/* контейнер для тексту */
+.container_for_texts {
+  width: 680px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 50px;
+}
+/* заголовок для списку */
+.list_title {
+  font-size: 30px;
+  line-height: 37px;
+  margin: 50px 0px;
+}
+.list_title_first {
+  margin-bottom: 20px;
+  color: #ffa800;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+.list_subtitle_first {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.list_subtitle_second {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+.list_title_second {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffa800;
+  margin-bottom: 20px;
+}
+.list_title_third {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #ffa800;
+  margin-bottom: 20px;
+}
+.list_subtitle_third {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 55px;
+}
+.list_title_fourth {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #ffa800;
+  margin-bottom: 20px;
+}
+.a {
+  width: 222px;
+}
+/* обгортка для списку */
+.wrapper_for_list_link {
+  display: flex;
+  width: 490px;
+  height: 144px;
+  align-items: center;
+}
+/* посилання списку */
+.list_link {
+  font-size: 14px;
+  font-weight: 800;
+  color: #2f80ed;
+  text-transform: uppercase;
+  text-decoration: underline dotted #2f80ed;
+}
+.wrapper_for_icon {
+  display: flex;
+  height: 446px;
+  width: 500px;
+  justify-content: flex-end;
+}
+/* фотографія */
+.image {
+  align-self: center;
+  background: radial-gradient(
+      68.31% 68.31% at 50% 50%,
+      #ffffff 0%,
+      #cadef9 100%
+    ),
+    #ffffff;
+  box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+  border-radius: 35%;
+}
+/* треття секція */
+.third {
+  max-width: 1519px;
+  background-size: 100%;
+  height: 968px;
+  background-image: url(../img/634ea11d-886e-4ae0-93fa-1ebb550dd203.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  margin: 0 auto;
+}
+
+.section_title_my_works {
+  font-size: 30px;
+  color: white;
+}
+/* контейнер по моїм роботам */
+.container_for_my_works {
+  width: 1423px;
+  height: 452px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.wrapper_for_title_my_works {
+  width: 436px;
+  height: 263px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* моя робота */
+.work {
+  width: 565px;
+  height: 278.47px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  margin: 15px 15px;
+  box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
+}
+.html {
+  background: #ffa800;
+  height: 40px;
+  width: 98px;
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+  margin-bottom: 14px;
+  padding-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+.css {
+  background: #ffa800;
+  height: 40px;
+  width: 98px;
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+  padding-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+.wrapper_for_fails_first,
+.wrapper_for_fails_second {
+  text-align: center;
+  padding: 14px 51px;
+}
+/* фотографія моєї роботи */
+.work_img {
+  padding-left: 10px;
+  padding-top: 8px;
+  height: 270px;
+}
+.wrapper_for_fails_second {
+  padding: 14px 25px;
+}
+/* четверта секція */
+.fourth {
+  height: 983px;
+  max-width: 1519px;
+  background-size: 100%;
+  margin: 0 auto;
+}
+.wrapper_for_title_info_me {
+  margin-bottom: 80px;
+  width: 962px;
+  display: flex;
+  justify-content: center;
+}
+.title_info_for_me {
+  font-size: 30px;
+  line-height: 48px;
+}
+/* контейнер для відеоблогу */
+.container_for_videoblog {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+/* обгортка для самого відео */
+.wrapper_for_blog {
+  display: flex;
+  width: 1156px;
+  justify-content: space-around;
+}
+/* блок з вчителем */
+.block_with_teacher {
+  width: 351px;
+  height: 212px;
+  box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.7);
+  border-radius: 10px;
+  background: #ffffff;
+  align-self: center;
+  padding: 44px 50px;
+}
+.recomendation_text {
+  color: #2f80ed;
+  font-weight: 400;
+  line-height: 29.26px;
+}
+.name_teacher {
+  color: #ffa800;
+  font-size: 24px;
+  line-height: 43.88px;
+}
+.shkm_teacher {
+  color: #636363;
+  font-weight: 300;
+  line-height: 29.26px;
+  font-family: Montserrat;
+}
+.info_about_my_skils {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* іконка */
+.icon {
+  margin-bottom: 33px;
+}
+.title_about_my_skils {
+  margin-bottom: 9px;
+  color: #2f80ed;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.information_about_my_skils {
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #636363;
+}
+.title_lessons {
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+}
+/* контейнер для фотографій */
+.container_for_fotos {
+  width: 1440px;
+  display: flex;
+  margin-left: 8px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 55px;
+}
+/* фотографія учнів */
+.studens_fotos {
+  width: 332px;
+  height: 268px;
+  object-fit: cover;
+  max-width: 1519px;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-bottom: 21px;
+}
+.wapper_for_ice_circlet {
+  position: relative;
+  max-width: 1485px;
+  background-size: 100%;
+  margin: 0 auto;
+}
+.ice_circlet {
+  position: absolute;
+  bottom: -158px;
+  right: 66px;
+}
+.sixth_title {
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 77px;
+}
+/* обгортка для donate block */
+.wrapper_about_donate_blocks {
+  display: flex;
+  height: 380px;
+  justify-content: space-evenly;
+  background-image: url(../img/fonn.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  max-width: 1519px;
+  background-size: 100%;
+  margin: 0 auto;
+}
+/* блок з замовленнями */
+.donate_block {
+  width: 271px;
+  height: 293px;
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.donate_block_title {
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #2f80ed;
+  margin-bottom: 11px;
+}
+.donate_block_subtitle {
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  color: #2f80ed;
+  margin-bottom: 33px;
+}
+.donate_block_subtitle:nth-child(3) {
+  margin-bottom: 9px;
+}
+.sixth {
+  max-width: 1519px;
+  background-size: 100%;
+  margin: 0 auto;
+}
+.button_donate_block {
+  background: #52d1bc;
+  border-radius: 50px;
+  width: 192px;
+  height: 50px;
+  border: none;
+  color: white;
+}
+.button_title_donate_block {
+  font-size: 14px;
+}
+.donate_block:nth-child(3) {
+  position: relative;
+}
+/* коло */
+.kolo {
+  background: orange;
+  color: white;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  position: absolute;
+  left: 200px;
+  top: -50px;
+}
+/* останій блок */
+.footer {
+  background: #2f80ed;
+  height: 300px;
+  max-width: 1519px;
+  background-size: 100%;
+  margin: 0 auto;
+}
+/* обгортка для об'єктів футера */
+.wrapper_for_footer_items {
+  display: flex;
+  justify-content: space-around;
+  height: 130px;
+  align-items: center;
+  margin-bottom: 41px;
+  color: white;
+}
+.footer_button {
+  width: 160px;
+  height: 42px;
+  border-radius: 50px;
+  border: none;
+  color: #ffa800;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.footer_block {
+  height: 77px;
+  width: 1440px;
+  background: #185fbf;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 70%;
+}
+.footer_IF {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: white;
+}
+.footer_zaporiga,
+.footer_krivoy_rig {
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 13px;
+}
+.wrapper_city_names {
+  display: flex;
+}
+.Privacy_Policy {
+  margin-left: 91px;
+}
+.wrapper_for_footer_block_texts {
+  display: flex;
+}
+.fifth {
+  height: 789px;
+  margin: 0 auto;
+  max-width: 1519px;
+  background-size: 100%;
+}
+.wrapper_for_krugok {
+  background-image: url(../img/Ellipse(1).png);
+}
