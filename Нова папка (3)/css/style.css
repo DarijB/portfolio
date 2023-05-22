@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+.header {
+  width: 1366px;
+  height: 67px;
+  background: #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Work Sans", sans-serif;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+}
+.nav_link {
+  list-style: none;
+  text-decoration: none;
+  color: #151c22;
+  margin-left: 35px;
+}
+.nav_link:nth-child(1) {
+  margin-left: 0px;
+}
+.header_main_title {
+  color: #151c22;
+}
+.promo {
+  background: #f1f2f4;
+  width: 1366px;
+  height: 617px;
+  display: flex;
+}
+.promo_left {
+  width: 610px;
+  height: 617px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.promo_left_subtitle {
+  color: #727a82;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  margin-right: 95px;
+  font-weight: 400;
+  line-height: 21.11px;
+}
+.promo_left_title {
+  color: #151c22;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 192.69px;
+  font-family: "Anton", sans-serif;
+}
+.button {
+  background: #151c22;
+  width: 219px;
+  height: 64px;
+  align-self: flex-end;
+  font-family: "Work Sans", sans-serif;
+  margin-right: 81px;
+}
+.text {
+  font-weight: 700;
+  line-height: 18.77px;
+  color: white;
+}
+.icon {
+  margin-right: 35px;
+}
+.promo_right {
+  display: flex;
+}
+.girl_foto {
+  align-self: center;
+  margin-left: 100px;
+}
+.main {
+  width: 1366px;
+  background: #e5e5e5;
+  font-family: "Work Sans", sans-serif;
+}
+.section_bestsellers {
+  width: 1366px;
+  height: 670px;
+  color: #151c22;
+}
+.container_for_clothers_blocks {
+  width: 1233px;
+  display: flex;
+  height: 400px;
+  justify-content: space-evenly;
+  margin: 0px 73px;
+}
+.clother_block {
+  width: 279px;
+  height: 400px;
+}
+.wrapper_for_texts {
+  display: flex;
+  justify-content: space-between;
+  height: 188px;
+  padding: 0px 98px;
+  align-items: center;
+}
+.section_bestsellers_subtitle {
+  text-decoration: underline;
+  font-weight: 500;
+  line-height: 21.11px;
+}
+.section_bestsellers_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.54px;
+}
+.clother_img {
+  margin-bottom: 25px;
+}
+..p .clother_title {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.11px;
+}
+.clother_price {
+  font-weight: 700;
+  line-height: 18.77px;
+}
+.section_news {
+  width: 1366px;
+  height: 680px;
+}
+.wrapper_for_block {
+  display: flex;
+  width: 1300px;
+  height: 420px;
+  justify-content: center;
+}
+.info_block {
+  width: 400px;
+  height: 397px;
+  background: #f1f2f4;
+  display: flex;
+  padding-left: 43px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-end;
+}
+.info_block_title {
+  color: #151c22;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.15px;
+  margin-bottom: 27px;
+}
+.info_block_subtitle,
+.info_block_news {
+  font-size: 18px;
+  line-height: 21.11px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 21.11px;
+  margin-bottom: 13px;
+}
+.info_block_news {
+  margin-bottom: 27px;
+  color: #727a82;
+}
+.button_news {
+  width: 200px;
+  height: 64px;
+  background: #151c22;
+  color: white;
+}
+.button_news_title {
+  font-weight: 700;
+  line-height: 18.77px;
+}
+.footer {
+  height: 222px;
+  width: 1366px;
+  background: #151c22;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper_for_titles {
+  display: flex;
+  margin-bottom: 37px;
+}
+.footer_title {
+  margin-bottom: 35px;
+}
+.footer_subtitle {
+  margin-left: 35px;
+}
+.footer_icons {
+  margin-left: 30px;
+}
