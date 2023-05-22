@@ -1,0 +1,228 @@
+/* Зірочка(задає значення для всіх) */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Jura", sans-serif;
+}
+/* контейнер головний */
+.container {
+  width: 1240px;
+  background: #d4f9f2;
+  margin: 0 auto;
+}
+/* головна частина сайту */
+.header {
+  width: 1240px;
+  height: 700px;
+}
+/* контейнер для тексту */
+.container_for_text {
+  float: left;
+}
+/* картинка */
+.image {
+  width: 56px;
+  height: 76px;
+  margin-left: 36px;
+  margin-top: 65px;
+  margin-bottom: 92px;
+}
+.header_title,
+.header_subtitle {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 118.3px;
+  margin-left: 36px;
+}
+.header_subtitle {
+  margin-bottom: 33px;
+}
+/* Кнопка хедер */
+.header_button {
+  width: 360px;
+  height: 50px;
+  background: #ff1c52;
+  margin-left: 36px;
+  line-height: 19px;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.header_button:hover {
+  color: #006aa7;
+  background: white;
+  cursor: pointer;
+}
+/* Різдвяна картинка */
+.Chrismas_img {
+  margin-left: 80px;
+}
+/* Блок з різдвяними побажаннями */
+.section_chrismas_wish {
+  background: #ff1c52;
+  height: 430px;
+}
+/* контейнер для тексту */
+.container_for_texts {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 28.39px;
+  padding-top: 38px;
+  padding-bottom: 69px;
+  margin-left: 20px;
+}
+.section_title,
+.star {
+  display: inline-block;
+  margin: 0 10px;
+}
+/* блок з самими побажаннями */
+.wish {
+  display: inline-block;
+  height: 250px;
+  width: 260px;
+  padding-left: 19px;
+  background: #258a86;
+  margin-left: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  float: left;
+  line-height: 19px;
+  color: white;
+}
+.wish:nth-child(2) {
+  margin-left: 73px;
+}
+.wish:nth-child(4) {
+  margin-left: 18px;
+}
+.wish:nth-child(odd) {
+  background: white;
+  margin-left: 18px;
+  color: black;
+}
+/* картинка */
+.wish_img {
+  padding-top: 19px;
+  width: 60px;
+  height: 79px;
+}
+.wish_title {
+  font-weight: 600;
+  line-height: 19px;
+}
+.wish_text {
+  padding-top: 15px;
+}
+/* Блок з побажаннями 2 */
+.section_chrismas_wish2 {
+  background: #d4f9f2;
+  height: 430px;
+}
+.container_for_texts2 {
+  text-align: center;
+  color: #258a86;
+  font-weight: 700;
+  line-height: 28.39px;
+  padding-top: 38px;
+  padding-bottom: 69px;
+  margin-left: 20px;
+}
+.section_title2,
+.star2 {
+  display: inline-block;
+  margin: 0 10px;
+}
+/* Блок з побажаннями 2 */
+.wish2 {
+  display: inline-block;
+  height: 250px;
+  width: 260px;
+  padding-left: 19px;
+  background: white;
+  margin-left: 19px;
+  float: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+.wish2:nth-child(2) {
+  margin-left: 73px;
+}
+.wish2:nth-child(4) {
+  margin-left: 18px;
+}
+.wish2:nth-child(odd) {
+  background: #f9c00d;
+  margin-left: 18px;
+  color: black;
+}
+.wish_img2 {
+  padding-top: 19px;
+}
+.wish_title2 {
+  font-weight: 600;
+  line-height: 19px;
+}
+.wish_text2 {
+  padding-top: 15px;
+}
+/* Блок з побажаннями 3 */
+.section_chrismas_wish3 {
+  background: #ff1c52;
+  height: 430px;
+}
+.container_for_texts3 {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 28.39px;
+  padding-top: 38px;
+  padding-bottom: 69px;
+  margin-left: 20px;
+}
+.section_title3,
+.star3 {
+  display: inline-block;
+  margin: 0 10px;
+}
+/* Блок з побажаннями 3 */
+.wish3 {
+  display: inline-block;
+  height: 250px;
+  width: 260px;
+  padding-left: 19px;
+  float: left;
+  background: #258a86;
+  margin-left: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+.wish3:nth-child(2) {
+  margin-left: 73px;
+}
+.wish3:nth-child(4) {
+  margin-left: 18px;
+}
+.wish3:nth-child(odd) {
+  background: white;
+  margin-left: 18px;
+  color: black;
+}
+.wish_img3 {
+  padding-top: 19px;
+}
+.wish_title3 {
+  font-weight: 600;
+  line-height: 19px;
+}
+.wish_text3 {
+  padding-top: 15px;
+}
