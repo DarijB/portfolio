@@ -6,11 +6,15 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-/* контейнер */
-/* .container {
+.container{
+  width: 1519px;
   margin: 0 auto;
-  width: 1440px;
-} */
+  }
+
+
+
+
+
 /* перша секція */
 .first {
   padding-bottom: 73px;
@@ -19,7 +23,7 @@ body {
   background-image: url(../img/bg.png);
   margin: 0 auto;
   background-repeat: no-repeat;
-}
+
 /* шапка сайту */
 .header {
   height: 114px;
