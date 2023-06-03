@@ -10,11 +10,6 @@ body {
   width: 1519px;
   margin: 0 auto;
   }
-
-
-
-
-
 /* перша секція */
 .first {
   padding-bottom: 73px;
@@ -23,7 +18,7 @@ body {
   background-image: url(../img/bg.png);
   margin: 0 auto;
   background-repeat: no-repeat;
-
+}
 /* шапка сайту */
 .header {
   height: 114px;
